@@ -1,4 +1,4 @@
-package br.com.siecola.aws_project01;
+package br.com.rodrwan.aws_project01;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
