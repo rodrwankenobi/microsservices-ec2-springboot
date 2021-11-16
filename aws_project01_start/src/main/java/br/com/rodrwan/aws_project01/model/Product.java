@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 @Table(
         uniqueConstraints = {
-                @UniqueConstraints(columnNames = {"code"})
+                @UniqueConstraint(columnNames = {"code"})
         }
 )
 @Entity
@@ -22,6 +22,18 @@ public class Product {
     @Column(length = 8, nullable = false)
     private String code;
 
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    @Column(length=20, nullable = true)
+    private String color;
+
+
     private float price;
 
     public long getId() {
@@ -30,5 +42,37 @@ public class Product {
 
     public void setId(long id) {
         Id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
     }
 }

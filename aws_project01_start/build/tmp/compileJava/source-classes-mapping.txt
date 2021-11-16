@@ -1,4 +1,10 @@
-br/com/siecola/aws_project01/AwsProject01Application.java
- br.com.siecola.aws_project01.AwsProject01Application
-br/com/siecola/aws_project01/controller/TestController.java
- br.com.siecola.aws_project01.controller.TestController
+br/com/rodrwan/aws_project01/repository/ProductRepository.java
+ br.com.rodrwan.aws_project01.repository.ProductRepository
+br/com/rodrwan/aws_project01/controller/TestController.java
+ br.com.rodrwan.aws_project01.controller.TestController
+br/com/rodrwan/aws_project01/AwsProject01Application.java
+ br.com.rodrwan.aws_project01.AwsProject01Application
+br/com/rodrwan/aws_project01/controller/ProductController.java
+ br.com.rodrwan.aws_project01.controller.ProductController
+br/com/rodrwan/aws_project01/model/Product.java
+ br.com.rodrwan.aws_project01.model.Product
